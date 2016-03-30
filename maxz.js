@@ -1,6 +1,12 @@
 module.exports = function maxz (els) {
   els = els || document.body.getElementsByTagName('*')
-  return Math.max.apply(Math, [].map.call(els, getZzz))
+  var indexes = []
+  var l = els.length
+  while (l--) {
+    var zIndex = getZzz(els[l])
+    if (zIndex) indexes.push(zIndex)
+  }
+  return Math.max.apply(Math, indexes)
 }
 
 function getZzz (el) {
