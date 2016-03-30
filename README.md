@@ -8,8 +8,9 @@ npm install maxz
 
 ## usage
 ```js
-max() // maximum z index e.g. 100
-max(els) // maximum z index e.g. 99999
+var maxz = require('maxz')
+maxz() // maximum z index e.g. 100
+maxz(els) // maximum z index e.g. 99999
 ```
 
 ## run tests
