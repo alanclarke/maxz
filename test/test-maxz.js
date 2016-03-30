@@ -24,4 +24,7 @@ describe('maxz', function () {
     })
     expect(maxz()).to.eql(118118)
   })
+  it('should handle empty array', function () {
+    expect(maxz([])).to.eql(0)
+  })
 })
