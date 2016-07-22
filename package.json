@@ -1,6 +1,6 @@
 {
   "name": "maxz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Get the maximum zIndex on a page or from a list of elements",
   "main": "maxz.js",
   "directories": {
