@@ -7,13 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node_modules/.bin/karma start --single-run && node_modules/.bin/standard"
+    "test": "karma start --single-run && node_modules/.bin/standard"
   },
-  "author": {
-    "name": "Alan Clarke",
-    "email": "alan@qubit.com",
-    "url": "qubit.com"
-  },
+  "author": "Alan Clarke <alan@qubit.com> (qubit.com)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QubitProducts/maxz.git"
@@ -30,5 +26,13 @@
     "standard": "^6.0.8",
     "webpack": "^1.12.14"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/QubitProducts/maxz/issues"
+  },
+  "homepage": "https://github.com/QubitProducts/maxz#readme",
+  "keywords": [
+    "maxzIndex",
+    "zIndex"
+  ]
 }
